@@ -37,9 +37,14 @@
   }
 }
 
-.list-item{
+.list-item {
   padding: 2px;
   border: 1px solid #ccc;
   list-style-type: none;
   margin: 10px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  text-decoration: line-through;
 }
