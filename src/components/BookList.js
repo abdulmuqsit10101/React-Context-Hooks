@@ -4,7 +4,6 @@ import {BookContext} from '../context/BookContext.js';
 
 const BookList = () => {
   const {books} = useContext(BookContext);
-  console.log(books);
   return (
     <ul>
       {
